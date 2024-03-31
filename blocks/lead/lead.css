@@ -1,0 +1,17 @@
+.lead {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 2*148px);
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
+}
