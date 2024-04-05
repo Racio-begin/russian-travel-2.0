@@ -1,11 +1,19 @@
+$color-text: #fff;
+$color-background: #2a2c2f;
+$font-family: "Inter", "Arial ", sans-serif;
+$font-weight: 400;
+$min-width: 320px;
+$max-width: 1280px;
+$min-height: 100vh;
+
 .page {
-  color: #fff;
-  background-color: #2a2c2f;
-  font-family: "Inter", "Arial ", sans-serif;
-  font-weight: 400;
-  min-width: 320px;
-  max-width: 1280px;
-  min-height: 100vh;
+  color: $color-text;
+  background-color: $color-background;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  min-width: $min-width;
+  max-width: $max-width;
+  min-height: $min-height;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 24px 0 28px;
