@@ -1,9 +1,9 @@
 .footer__link {
   color: #fff;
-  font-family: "Inter", "Arial ", sans-serif;
+  font-family: $font-family;
   display: inline-block;
   font-style: normal;
-  font-weight: 400;
+  font-weight: $font-weight;
   font-size: 16px;
   line-height: 18px;
   margin: 0;

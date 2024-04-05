@@ -2,7 +2,7 @@
 .page {
   color: #fff;
   background-color: #2a2c2f;
-  font-family: "Inter", "Arial ", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   min-width: 320px;
   max-width: 1280px;
@@ -630,7 +630,7 @@
   }
 }
 .cover__title {
-  font-family: "Inter", "Arial ", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -656,7 +656,7 @@
 }
 .cover__subtitle {
   max-width: 360px;
-  font-family: "Inter", "Arial ", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -734,7 +734,7 @@
 }
 .footer__link {
   color: #fff;
-  font-family: "Inter", "Arial ", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   display: inline-block;
   font-style: normal;
   font-weight: 400;
@@ -760,7 +760,7 @@
 .footer__copyright {
   margin: 0;
   padding: 0;
-  font-family: "Inter", "Arial ", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
