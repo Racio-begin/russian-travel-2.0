@@ -2,15 +2,16 @@
 $font-family : "Inter", "Arial", sans-serif !global;
 $font-weight: 400 !global;
 
-$color-text: #fff;
-$color-background: #2a2c2f;
+$bg-color: #2a2c2f;
+$text-color: #fff;
+$link-color: #fff;
 $min-width: 320px;
 $max-width: 1280px;
 $min-height: 100vh;
 
 .page {
-  color: $color-text;
-  background-color: $color-background;
+  color: $text-color;
+  background-color: $bg-color;
   font-family: $font-family;
   font-weight: $font-weight;
   min-width: $min-width;
