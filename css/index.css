@@ -844,7 +844,7 @@ template {
 }
 .place__url-heading {
   color: #aaa;
-  font-family: "Inter", "Arial ", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   text-transform: uppercase;
   margin: 0 0 12px 0;
   padding: 0;
@@ -1078,7 +1078,6 @@ template {
   text-decoration-line: none;
   transition: 0.3s ease-in;
 }
-
 .footer__link:hover {
   opacity: 0.8;
 }

@@ -11,11 +11,15 @@
   list-style: none;
   text-decoration-line: none;
   transition: 0.3s ease-in;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
-.footer__link:hover {
-  opacity: 0.8;
-}
+// .footer__link:hover {
+//   opacity: 0.8;
+// }
 
 @media screen and (max-width: 480px) {
   .footer__link {
