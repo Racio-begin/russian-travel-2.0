@@ -8,19 +8,19 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: $breakpint_xl) {
   .header {
     max-width: 928px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $breakpint_md) {
   .header {
     width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: $breakpint_sm) {
   .header {
     width: calc(100% - 32px);
   }

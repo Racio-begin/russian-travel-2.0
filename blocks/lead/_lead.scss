@@ -4,13 +4,13 @@
   width: calc(100% - 2*148px);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: $breakpint_xl) {
   .lead {
     width: calc(100% - 2*48px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $breakpint_md) {
   .lead {
     width: 100%;
   }

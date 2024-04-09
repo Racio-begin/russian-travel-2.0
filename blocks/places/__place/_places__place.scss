@@ -2,13 +2,13 @@
   margin-bottom: 80px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $breakpint_md) {
   .places__place {
     margin-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: $breakpint_sm) {
   .places__place {
     margin-bottom: 50px;
   }

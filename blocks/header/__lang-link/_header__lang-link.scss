@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: $breakpint_sm) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

@@ -1,5 +1,5 @@
 .cover__background {
-  color: #fff;
+  color: $text-color;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -32,13 +32,13 @@
   opacity: $opacity-08;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: $breakpint_xl) {
   .cover__background {
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $breakpint_md) {
   .cover__background {
     min-height: 480px;
   }
