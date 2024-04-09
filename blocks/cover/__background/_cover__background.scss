@@ -19,17 +19,17 @@
   content: '';
   display: block;
   background-color: $bg-color;
-  opacity: 0.3;
+  opacity: $opacity-03;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  transition: .3s ease-in;
+  transition: $transition-03-ease;
 }
 
 .cover__background:hover::before {
-  opacity: 0.8;
+  opacity: $opacity-08;
 }
 
 @media screen and (max-width: 1024px) {
