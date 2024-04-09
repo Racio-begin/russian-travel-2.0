@@ -312,21 +312,21 @@ template {
 /*  Fonts  */
 @font-face {
   font-family: "Inter";
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/Inter-Regular.woff2) format("woff2"), url(../fonts/Inter-Regular.woff) format("woff");
 }
 @font-face {
   font-family: "Inter";
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/Inter-Bold.woff2) format("woff2"), url(../fonts/Inter-Bold.woff) format("woff");
 }
 @font-face {
   font-family: "Inter";
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: 900;
   font-display: swap;
   src: url(../fonts/Inter-Black.woff2) format("woff2"), url(../fonts/Inter-Black.woff) format("woff");
@@ -437,7 +437,7 @@ template {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  font-style: normal;
+  font-style: $font-style-normal;
   margin: 0;
   padding: 0;
   text-align: right;
@@ -509,7 +509,7 @@ template {
   max-width: 720px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
@@ -534,7 +534,7 @@ template {
   max-width: 640px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-size: 30px;
   line-height: 36px;
   margin: 0 auto 64px;
@@ -615,7 +615,7 @@ template {
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  font-style: normal;
+  font-style: $font-style-normal;
   margin: 0 0 43px 0;
   padding: 0;
   display: flex;
@@ -630,7 +630,7 @@ template {
 .intro__text {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-size: 16px;
   line-height: 26px;
   max-width: 690px;
@@ -651,7 +651,7 @@ template {
 .intro__list {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 700;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-size: 12px;
   line-height: 18px;
   list-style: none;
@@ -785,7 +785,7 @@ template {
   margin: 0;
   padding: 0;
   font-weight: 900;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-size: 72px;
   line-height: 76px;
   display: flex;
@@ -848,7 +848,7 @@ template {
   text-transform: uppercase;
   margin: 0 0 12px 0;
   padding: 0;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 12px;
@@ -860,7 +860,7 @@ template {
   font-family: "Inter", "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 122%;
@@ -872,7 +872,7 @@ template {
 
 .place__paragraph {
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -962,7 +962,7 @@ template {
 }
 .cover__title {
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
@@ -988,7 +988,7 @@ template {
 .cover__subtitle {
   max-width: 360px;
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -1067,7 +1067,7 @@ template {
   color: #fff;
   font-family: "Inter", "Arial", sans-serif;
   display: inline-block;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -1091,7 +1091,7 @@ template {
   margin: 0;
   padding: 0;
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
+  font-style: $font-style-normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
