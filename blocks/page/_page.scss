@@ -1,6 +1,6 @@
 // Глобальные переменные
 // $font-family : "Inter", "Arial", sans-serif !global;
-// $font-weight: 400 !global;
+// $font-weight-400: 400 !global;
 
 // $bg-color: #2a2c2f;
 // $text-color: #fff;
@@ -14,7 +14,7 @@
   color: $text-color;
   background-color: $bg-color;
   font-family: $font-family;
-  font-weight: $font-weight;
+  font-weight: $font-weight-400;
   min-width: $min-width;
   max-width: $max-width;
   min-height: $min-height;
