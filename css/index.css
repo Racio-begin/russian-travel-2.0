@@ -314,21 +314,18 @@ template {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url(../fonts/Inter-Regular.woff2) format("woff2"), url(../fonts/Inter-Regular.woff) format("woff");
 }
 @font-face {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url(../fonts/Inter-Bold.woff2) format("woff2"), url(../fonts/Inter-Bold.woff) format("woff");
 }
 @font-face {
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  font-display: swap;
   src: url(../fonts/Inter-Black.woff2) format("woff2"), url(../fonts/Inter-Black.woff) format("woff");
 }
 /*  Page  */
@@ -923,7 +920,7 @@ template {
   width: 100%;
   max-width: 1184px;
   min-height: 740px;
-  background-image: url(../../../images/cover-trains.jpg);
+  background-image: url(/images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
 }
