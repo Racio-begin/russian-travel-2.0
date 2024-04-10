@@ -4,7 +4,8 @@
 @import "../scss/variables/variables";
 
 /*  Fonts  */
-@import "../vendor/fonts/Inter";
+// @import "../vendor/fonts/Inter";
+@import url("../vendor/fonts/Inter.css");
 
 /*  Page  */
 @import "../blocks/page/page-styles";
