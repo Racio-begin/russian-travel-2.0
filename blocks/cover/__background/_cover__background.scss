@@ -1,5 +1,5 @@
 .cover__background {
-  color: $text-color;
+  color: #fff;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -10,9 +10,7 @@
   width: 100%;
   max-width: 1184px;
   min-height: 740px;
-  // background-image: url(../../../images/cover-trains.jpg);
-  // background-image: url(../../../images/cover-trains.png);
-  background-image: url(../../../images/lead-polka-map.png);
+  background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -20,27 +18,27 @@
 .cover__background::before {
   content: '';
   display: block;
-  background-color: $bg-color;
-  opacity: $opacity-03;
+  background-color: #2a2c2f;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  transition: $transition-03-ease;
+  transition: .3s ease-in;
 }
 
 .cover__background:hover::before {
-  opacity: $opacity-08;
+  opacity: 0.8;
 }
 
-@media screen and (max-width: $breakpint_xl) {
+@media screen and (max-width: 1024px) {
   .cover__background {
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: $breakpint_md) {
+@media screen and (max-width: 768px) {
   .cover__background {
     min-height: 480px;
   }
