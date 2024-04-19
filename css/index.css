@@ -892,7 +892,7 @@ template {
   }
 }
 .cover__background {
-  color: #ddd;
+  color: #fff;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -903,7 +903,7 @@ template {
   width: 100%;
   max-width: 1184px;
   min-height: 740px;
-  background-image: url("/images/cover-trains.jpg");
+  background-image: url("../images/cover-trains.jpg");
   background-size: cover;
   background-position: center;
 }
