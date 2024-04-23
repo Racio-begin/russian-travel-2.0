@@ -697,7 +697,6 @@ template {
   padding: 0;
   width: calc(100% - 296px);
 }
-
 @media screen and (max-width: 1180px) {
   .places {
     width: calc(100% - 96px);
@@ -713,10 +712,10 @@ template {
     width: 100%;
   }
 }
+
 .places__place {
   margin-bottom: 80px;
 }
-
 @media screen and (max-width: 768px) {
   .places__place {
     margin-bottom: 73px;
@@ -727,6 +726,7 @@ template {
     margin-bottom: 50px;
   }
 }
+
 /*  Place  */
 .place {
   display: grid;

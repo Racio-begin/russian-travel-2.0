@@ -1,15 +1,11 @@
 .places__place {
   margin-bottom: 80px;
-}
 
-@media screen and (max-width: $breakpint_md) {
-  .places__place {
+  @media screen and (max-width: $breakpint_md) {
     margin-bottom: 73px;
   }
-}
 
-@media screen and (max-width: $breakpint_sm) {
-  .places__place {
+  @media screen and (max-width: $breakpint_sm) {
     margin-bottom: 50px;
   }
 }

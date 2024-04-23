@@ -2,22 +2,16 @@
   margin: 0 auto;
   padding: 0;
   width: calc(100% - 2 * 148px);
-}
 
-@media screen and (max-width: 1180px) {
-  .places {
+  @media screen and (max-width: 1180px) {
     width: calc(100% - 2 * 48px);
   }
-}
 
-@media screen and (max-width: 984px) {
-  .places {
+  @media screen and (max-width: 984px) {
     width: calc(100% - 2 * 24px);
   }
-}
 
-@media screen and (max-width: 568px) {
-  .places {
+  @media screen and (max-width: 568px) {
     width: 100%;
   }
 }
