@@ -1,6 +1,5 @@
 .cover__background {
-  color: #fff;
-  // color: #ddd;
+  color: $text-color;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -11,8 +10,6 @@
   width: 100%;
   max-width: 1184px;
   min-height: 740px;
-  // background-image: url(../../../images/cover-trains.jpg);
-  // background-image: url("/images/cover-trains.jpg");
   background-image: url("../images/cover-trains.jpg");
   background-size: cover;
   background-position: center;
