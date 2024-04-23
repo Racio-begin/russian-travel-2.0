@@ -5,23 +5,17 @@
   column-gap: 18px;
   row-gap: 50px;
   padding: 0;
-}
 
-@media screen and (max-width: $breakpint_xl) {
-  .place {
+  @media screen and (max-width: $breakpint_xl) {
     column-gap: 8px;
     row-gap: 48px;
   }
-}
 
-@media screen and (max-width: $breakpint_md) {
-  .place {
+  @media screen and (max-width: $breakpint_md) {
     column-gap: 28px;
   }
-}
 
-@media screen and (max-width: 568px) {
-  .place {
+  @media screen and (max-width: 568px) {
     column-gap: 0;
     display: flex;
     flex-direction: column;

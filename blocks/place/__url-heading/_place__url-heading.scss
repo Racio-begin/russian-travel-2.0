@@ -1,12 +1,15 @@
 .place__url-heading {
+  font: {
+    family: $font-family;
+    style: $font-style-normal;
+    weight: normal;
+    size: 12px;
+    line-height: 12px;
+  }
+
   color: $url-color;
-  font-family: $font-family;
-  text-transform: uppercase;
   margin: 0 0 12px 0;
   padding: 0;
-  font-style: $font-style-normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 12px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }

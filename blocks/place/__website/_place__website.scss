@@ -2,10 +2,8 @@
   margin: 0;
   padding: 0;
   align-self: flex-end;
-}
 
-@media screen and (max-width: 568px) {
-  .place__website {
+  @media screen and (max-width: 568px) {
     margin: 0 auto;
     width: calc(100% - 2 * 16px);
   }

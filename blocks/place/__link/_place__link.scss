@@ -1,12 +1,15 @@
 .place__link {
+  font: {
+    family: $font-family;
+    style: $font-style-normal;
+    weight: normal;
+    size: 18px;
+    line-height: 122%;
+  }
+
   color: $link-color;
-  font-family: $font-family;
   margin: 0;
   padding: 0;
-  font-style: $font-style-normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 122%;
   transition: $transition-03-ease;
 
   &:hover {

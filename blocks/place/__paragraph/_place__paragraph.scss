@@ -1,27 +1,32 @@
 .place__paragraph {
-  font-family: $font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-400;
-  font-size: 18px;
-  line-height: 29px;
+  // font-family: $font-family;
+  // font-style: $font-style-normal;
+  // font-weight: $font-weight-400;
+  // font-size: 18px;
+  // line-height: 29px;
+  // margin: 0 0 26px 0;
+  // padding: 0;
+  font: {
+    family: $font-family;
+    style: $font-style-normal;
+    weight: $font-weight-400;
+    size: 18px;
+    line-height: 29px;
+  }
   margin: 0 0 26px 0;
   padding: 0;
-}
 
-.place__paragraph:last-child {
-  margin-bottom: 0;
-}
+  &:last-child {
+    margin-bottom: 0;
+  }
 
-@media screen and (max-width: $breakpint_md) {
-  .place__paragraph {
+  @media screen and (max-width: $breakpint_md) {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 25px;
   }
-}
 
-@media screen and (max-width: $breakpint_sm) {
-  .place__paragraph {
+  @media screen and (max-width: $breakpint_sm) {
     max-width: calc(100% - 2 * 16px);
     padding-left: 16px;
   }

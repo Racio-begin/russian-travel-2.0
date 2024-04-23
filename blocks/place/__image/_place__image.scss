@@ -3,22 +3,16 @@
   padding: 0;
   max-width: 460px;
   height: auto;
-}
 
-@media screen and (max-width: $breakpint_xl) {
-  .place__image {
+  @media screen and (max-width: $breakpint_xl) {
     width: 43vw;
   }
-}
 
-@media screen and (max-width: $breakpint_md) {
-  .place__image {
+  @media screen and (max-width: $breakpint_md) {
     width: 44vw;
   }
-}
 
-@media screen and (max-width: 568px) {
-  .place__image {
+  @media screen and (max-width: 568px) {
     width: 100%;
     object-fit: cover;
   }
