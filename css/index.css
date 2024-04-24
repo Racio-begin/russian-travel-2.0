@@ -750,8 +750,8 @@ template {
 @media screen and (max-width: 568px) {
   .place {
     display: flex;
+    flex-direction: column;
     grid-column-gap: 0;
-    grid-flex-direction: column;
     grid-row-gap: 32px;
   }
 }

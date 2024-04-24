@@ -26,9 +26,12 @@
   @media screen and (max-width: 568px) {
     display: flex;
 
+    flex: {
+      direction: column;
+    }
+
     grid: {
       column-gap: 0;
-      flex-direction: column;
       row-gap: 32px;
     }
   }
