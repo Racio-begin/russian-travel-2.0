@@ -2,16 +2,12 @@
   margin: 0 auto;
   padding: 0;
   width: calc(100% - 2*148px);
-}
 
-@media screen and (max-width: $breakpint_xl) {
-  .lead {
+  @media screen and (max-width: $breakpint_xl) {
     width: calc(100% - 2*48px);
   }
-}
 
-@media screen and (max-width: $breakpint_md) {
-  .lead {
+  @media screen and (max-width: $breakpint_md) {
     width: 100%;
   }
 }

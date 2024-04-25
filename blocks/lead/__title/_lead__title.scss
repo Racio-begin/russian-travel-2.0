@@ -1,24 +1,23 @@
 .lead__title {
+  font: {
+    family: $font-family;
+    weight: $font-weight-900;
+    style: $font-style-normal;
+    size: 96px;
+    height: 100px;
+  }
+
   display: flex;
   max-width: 720px;
-  font-family: $font-family;
-  font-weight: $font-weight-900;
-  font-style: $font-style-normal;
-  font-size: 96px;
-  line-height: 100px;
   text-align: center;
   margin: 0 auto 35px;
   padding: 0;
-}
 
-@media screen and (max-width: 1124px) {
-  .lead__title {
+  @media screen and (max-width: 1124px) {
     margin-bottom: 32px;
   }
-}
 
-@media screen and (max-width: 700px) {
-  .lead__title {
+  @media screen and (max-width: 700px) {
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
