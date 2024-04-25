@@ -1,16 +1,17 @@
 .footer__copyright {
+  font: {
+    family: $font-family;
+    style: $font-style-normal;
+    weight: $font-weight-400;
+    size: 14px;
+    line-height: 16px;
+  }
+
   margin: 0;
   padding: 0;
-  font-family: $font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-400;
-  font-size: 14px;
-  line-height: 16px;
   text-align: right;
-}
 
-@media screen and (max-width: $breakpint_sm) {
-  .footer__copyright {
+  @media screen and (max-width: $breakpint_sm) {
     line-height: 14px;
   }
 }

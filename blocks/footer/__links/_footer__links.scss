@@ -4,11 +4,9 @@
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-}
 
-@media screen and (max-width: $breakpint_sm) {
-  .footer__links {
-    flex-direction: column;
-    margin-bottom: 48px;
+  @media screen and (max-width: $breakpint_sm) {
+      flex-direction: column;
+      margin-bottom: 48px;
   }
 }
