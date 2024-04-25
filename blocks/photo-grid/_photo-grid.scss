@@ -2,26 +2,29 @@
   max-width: 1184px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 16px;
-}
 
-@media screen and (max-width: 1240px) {
-  .photo-grid {
-    max-width: 90%;
-    gap: 14px;
+  grid: {
+    template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
   }
-}
 
-@media screen and (max-width: $breakpint_md) {
-  .photo-grid {
+  @media screen and (max-width: 1240px) {
+    max-width: 90%;
+
+    grid: {
+      gap: 14px;
+    }
+  }
+
+  @media screen and (max-width: $breakpint_md) {
     max-width: 93.75%;
   }
-}
 
-@media screen and (max-width: 320px) {
-  .photo-grid {
+  @media screen and (max-width: 320px) {
     max-width: 90%;
-    gap: 12px;
+
+    grid: {
+      gap: 12px;
+    }
   }
 }

@@ -658,13 +658,12 @@ template {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 16px;
+  grid-gap: 16px;
 }
-
 @media screen and (max-width: 1240px) {
   .photo-grid {
     max-width: 90%;
-    gap: 14px;
+    grid-gap: 14px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -675,14 +674,14 @@ template {
 @media screen and (max-width: 320px) {
   .photo-grid {
     max-width: 90%;
-    gap: 12px;
+    grid-gap: 12px;
   }
 }
+
 .photo-grid__item {
   width: 100%;
   transition: 1s;
 }
-
 .photo-grid__item:hover {
   transform: scale(1.2);
 }

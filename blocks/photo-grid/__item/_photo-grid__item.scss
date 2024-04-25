@@ -1,8 +1,8 @@
 .photo-grid__item {
   width: 100%;
   transition: $transition-1;
-}
 
-.photo-grid__item:hover {
-  transform: scale(1.2);
+  &:hover {
+    transform: scale(1.2);
+  }
 }
