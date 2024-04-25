@@ -574,7 +574,6 @@ template {
   margin: 0 auto;
   width: calc(100% - 296px);
 }
-
 @media screen and (max-width: 1024px) {
   .intro {
     width: calc(100% - 96px);
@@ -590,34 +589,34 @@ template {
     width: calc(100% - 32px);
   }
 }
+
 .intro__title {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
   font-style: normal;
+  font-line-height: 58px;
+  display: flex;
   margin: 0 0 43px 0;
   padding: 0;
-  display: flex;
 }
-
 @media screen and (max-width: 480px) {
   .intro__title {
-    font-size: 32px;
-    line-height: 35px;
+    font-font-size: 32px;
+    font-line-height: 35px;
   }
 }
+
 .intro__text {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  line-height: 26px;
+  font-line-height: 26px;
   max-width: 690px;
   margin: 0 0 38px 0;
   padding: 0;
 }
-
 @media screen and (max-width: 1024px) {
   .intro__text {
     margin-bottom: 28px;
@@ -628,21 +627,22 @@ template {
     margin-bottom: 34px;
   }
 }
+
 .intro__list {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
-  line-height: 18px;
+  font-line-height: 18px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .intro__fact {
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 .intro__digits {

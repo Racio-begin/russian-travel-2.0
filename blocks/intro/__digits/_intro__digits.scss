@@ -1,6 +1,9 @@
 .intro__digits {
-  font-family: $font-family;
-  font-weight: $font-weight-400;
+  font: {
+    family: $font-family;
+    weight: $font-weight-400;
+  }
+
   margin: 0;
   padding: 0;
 }
