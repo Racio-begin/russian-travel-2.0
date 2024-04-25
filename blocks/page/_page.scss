@@ -1,8 +1,11 @@
 .page {
+  font: {
+    family: $font-family;
+    weight: $font-weight-400;
+  }
+
   color: $text-color;
   background-color: $bg-color;
-  font-family: $font-family;
-  font-weight: $font-weight-400;
   min-width: $min-width;
   max-width: $max-width;
   min-height: $min-height;

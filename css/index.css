@@ -313,10 +313,10 @@ template {
 /*  Fonts  */
 /*  Page  */
 .page {
-  color: #fff;
-  background-color: #2a2c2f;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
+  color: #fff;
+  background-color: #2a2c2f;
   min-width: 320px;
   max-width: 1280px;
   min-height: 100vh;
@@ -330,7 +330,6 @@ template {
   padding-top: 28px;
   margin-bottom: 56px;
 }
-
 @media screen and (max-width: 1124px) {
   .page__header {
     margin-bottom: 48px;
@@ -341,11 +340,11 @@ template {
     padding-top: 16px;
   }
 }
+
 .page__content {
   margin-top: 56px;
   margin-bottom: 92px;
 }
-
 @media screen and (max-width: 1124px) {
   .page__content {
     margin-top: 48px;
@@ -361,6 +360,7 @@ template {
     margin-bottom: 64px;
   }
 }
+
 /*  Header  */
 .header {
   margin: 0 auto;
