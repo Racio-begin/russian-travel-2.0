@@ -6,22 +6,16 @@
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-}
 
-@media screen and (max-width: $breakpint_xl) {
-  .header {
+  @media screen and (max-width: $breakpint_xl) {
     max-width: 928px;
   }
-}
 
-@media screen and (max-width: $breakpint_md) {
-  .header {
+  @media screen and (max-width: $breakpint_md) {
     width: calc(100% - 48px);
   }
-}
 
-@media screen and (max-width: $breakpint_sm) {
-  .header {
+  @media screen and (max-width: $breakpint_sm) {
     width: calc(100% - 32px);
   }
 }
