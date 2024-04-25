@@ -4,10 +4,8 @@
   width: calc(100% - 2 * 48px);
   display: flex;
   flex-direction: column;
-}
 
-@media screen and (max-width: 1124px) {
-  .cover {
-    width: 100%;
+  @media screen and (max-width: 1124px) {
+      width: 100%;
   }
 }

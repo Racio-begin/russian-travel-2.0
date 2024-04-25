@@ -1,21 +1,25 @@
 .cover__subtitle {
+  font: {
+    family: $font-family;
+    style: $font-style-normal;
+    weight: $font-weight-400;
+    size: 18px;
+    height: 22px;
+  }
+
   max-width: 360px;
-  font-family: $font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-400;
-  font-size: 18px;
-  line-height: 22px;
   margin: 0 auto;
   padding: 0;
   text-align: center;
   position: relative;
   z-index: 1;
-}
 
-@media screen and (max-width: 568px) {
-  .cover__subtitle {
+  @media screen and (max-width: 568px) {
+    font: {
+      size: 14px;
+      line-height: 16px;
+    }
+
     max-width: 288px;
-    font-size: 14px;
-    line-height: 16px;
   }
 }
