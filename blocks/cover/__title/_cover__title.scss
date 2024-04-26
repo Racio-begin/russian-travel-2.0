@@ -4,9 +4,9 @@
     style: $font-style-normal;
     weight: $font-weight-900;
     size: 72px;
-    line-height: 106%;
   }
 
+	line-height: 106%;
   margin: 0 auto 32px;
   padding: 0;
   max-width: 560px;
@@ -18,9 +18,9 @@
   @media screen and (max-width: 568px) {
     font: {
       size: 32px;
-      line-height: 109%;
     }
 
+		line-height: 109%;
     max-width: 288px;
     justify-content: center;
     align-items: center;

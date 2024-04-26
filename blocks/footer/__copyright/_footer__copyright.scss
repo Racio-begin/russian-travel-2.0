@@ -4,13 +4,13 @@
     style: $font-style-normal;
     weight: $font-weight-400;
     size: 14px;
-    line-height: 16px;
   }
 
+	line-height: 16px;
   margin: 0;
   padding: 0;
   text-align: right;
-  
+
 
   @media screen and (max-width: $breakpint_sm) {
     line-height: 14px;

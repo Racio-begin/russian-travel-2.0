@@ -416,7 +416,7 @@ template {
   font-weight: 400;
   font-size: 24px;
   font-style: normal;
-  font-line-height: 28px;
+  line-height: 28px;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -489,7 +489,7 @@ template {
   font-weight: 900;
   font-style: normal;
   font-size: 96px;
-  font-height: 100px;
+  line-height: 100px;
   display: flex;
   max-width: 720px;
   text-align: center;
@@ -515,7 +515,7 @@ template {
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
-  font-line-height: 36px;
+  line-height: 36px;
   display: flex;
   max-width: 640px;
   margin: 0 auto 64px;
@@ -530,7 +530,7 @@ template {
 @media screen and (max-width: 700px) {
   .lead__subtitle {
     font-size: 16px;
-    font-line-height: 125%;
+    line-height: 125%;
     max-width: 288px;
     margin-bottom: 40px;
   }
@@ -552,7 +552,7 @@ template {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 10px;
-  font-line-height: 14px;
+  line-height: 14px;
   margin: 5px 0 0;
   padding: 0;
   letter-spacing: 1.5px;
@@ -595,15 +595,15 @@ template {
   font-weight: 900;
   font-size: 54px;
   font-style: normal;
-  font-line-height: 58px;
+  line-height: 58px;
   display: flex;
   margin: 0 0 43px 0;
   padding: 0;
 }
 @media screen and (max-width: 480px) {
   .intro__title {
-    font-font-size: 32px;
-    font-line-height: 35px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }
 
@@ -612,7 +612,7 @@ template {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  font-line-height: 26px;
+  line-height: 26px;
   max-width: 690px;
   margin: 0 0 38px 0;
   padding: 0;
@@ -633,7 +633,7 @@ template {
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
-  font-line-height: 18px;
+  line-height: 18px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -760,7 +760,7 @@ template {
   font-weight: 900;
   font-style: normal;
   font-size: 72px;
-  font-line-height: 76px;
+  line-height: 76px;
   margin: 0;
   padding: 0;
   display: flex;
@@ -769,13 +769,13 @@ template {
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
-    font-line-height: 46px;
+    line-height: 46px;
   }
 }
 @media screen and (max-width: 510px) {
   .place__title {
     font-size: 32px;
-    font-line-height: 35px;
+    line-height: 35px;
     margin: 0 auto 0;
     width: calc(100% - 32px);
   }
@@ -822,7 +822,7 @@ template {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  font-line-height: 12px;
+  line-height: 12px;
   color: #aaa;
   margin: 0 0 12px 0;
   padding: 0;
@@ -835,7 +835,7 @@ template {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  font-line-height: 122%;
+  line-height: 122%;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -850,7 +850,7 @@ template {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  font-line-height: 29px;
+  line-height: 29px;
   margin: 0 0 26px 0;
   padding: 0;
 }
@@ -860,7 +860,7 @@ template {
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    font-line-height: 26px;
+    line-height: 26px;
     margin-bottom: 25px;
   }
 }
@@ -937,7 +937,7 @@ template {
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  font-line-height: 106%;
+  line-height: 106%;
   margin: 0 auto 32px;
   padding: 0;
   max-width: 560px;
@@ -949,7 +949,7 @@ template {
 @media screen and (max-width: 568px) {
   .cover__title {
     font-size: 32px;
-    font-line-height: 109%;
+    line-height: 109%;
     max-width: 288px;
     justify-content: center;
     align-items: center;
@@ -962,7 +962,7 @@ template {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  font-height: 22px;
+  line-height: 22px;
   max-width: 360px;
   margin: 0 auto;
   padding: 0;
@@ -973,7 +973,7 @@ template {
 @media screen and (max-width: 568px) {
   .cover__subtitle {
     font-size: 14px;
-    font-line-height: 16px;
+    line-height: 16px;
     max-width: 288px;
   }
 }
@@ -1040,7 +1040,7 @@ template {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  font-line-height: 18px;
+  line-height: 18px;
   color: #fff;
   display: inline-block;
   margin: 0;
@@ -1064,7 +1064,7 @@ template {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  font-line-height: 16px;
+  line-height: 16px;
   margin: 0;
   padding: 0;
   text-align: right;

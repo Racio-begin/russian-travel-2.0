@@ -4,9 +4,9 @@
     style: $font-style-normal;
     weight: $font-weight-400;
     size: 18px;
-    line-height: 29px;
   }
 
+	line-height: 29px;
   margin: 0 0 26px 0;
   padding: 0;
 
@@ -17,9 +17,9 @@
   @media screen and (max-width: $breakpint_md) {
     font: {
       size: 16px;
-      line-height: 26px;
     }
 
+		line-height: 26px;
     margin-bottom: 25px;
   }
 

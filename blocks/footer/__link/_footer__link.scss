@@ -1,26 +1,29 @@
 .footer__link {
-  font: {
-    family: $font-family;
-    style: $font-style-normal;
-    weight: $font-weight-400;
-    size: 16px;
-    line-height: 18px;
-  }
+	font: {
+		family: $font-family;
+		style: $font-style-normal;
+		weight: $font-weight-400;
+		size: 16px;
+	}
 
-  color: $link-color;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration-line: none;
-  transition: $transition-03-ease;
+	line-height: 18px;
+	color: $link-color;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration-line: none;
+	transition: $transition-03-ease;
 
-  &:hover {
-    opacity: $opacity-08;
-  }
+	&:hover {
+		opacity: $opacity-08;
+	}
 
-  @media screen and (max-width: $breakpint_sm) {
-    font-size: 24px;
-    line-height: 24px;
-  }
+	@media screen and (max-width: $breakpint_sm) {
+		font: {
+			size: 24px;
+		}
+
+		line-height: 24px;
+	}
 }
