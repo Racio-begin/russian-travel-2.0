@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__lang-button {
   font: {
     family: $font-family;
     weight: $font-weight-400;
@@ -8,8 +8,11 @@
 
 	line-height: 28px;
   color: $link-color;
+	background-color: $bg-color;
+	cursor: $cursor_pointer;
   margin: 0;
   padding: 0;
+	border: 0;
   text-align: right;
   text-decoration: none;
   transition: $transition-03-ease;
