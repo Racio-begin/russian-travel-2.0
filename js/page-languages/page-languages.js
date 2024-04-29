@@ -5,7 +5,6 @@ let currentLang = "ru";
 const langButtons = document.querySelectorAll("[data-btn]");
 
 const currentPathName = window.location.pathname;
-console.log(currentPathName);
 
 let currentTexts = {};
 
@@ -18,6 +17,10 @@ const leadTexts = {
 		ru: "Настоящая страна не в выпусках новостей, а здесь.",
 		en: "The real country is not in the news, but here.",
 	},
+	"lead__caption-text": {
+		ru: "Ваша полка - верхняя",
+		en: "Your shelf is top",
+	},
 };
 
 function checkPagePathName() {
@@ -29,8 +32,9 @@ function checkPagePathName() {
 		default:
 			currentTexts = leadTexts;
 			break;
-	}
-}
+	};
+};
+
 checkPagePathName();
 
 function changeLang() {
@@ -41,6 +45,7 @@ function changeLang() {
 		};
 	};
 };
+
 changeLang();
 
 langButtons.forEach((btn => {
