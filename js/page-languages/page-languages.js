@@ -1,6 +1,6 @@
 const allLangs = ["ru", "en"];
 
-let currentLang = "ru";
+let currentLang = localStorage.getItem("language") || "ru";
 
 const langButtons = document.querySelectorAll("[data-btn]");
 
@@ -51,8 +51,9 @@ changeLang();
 langButtons.forEach((btn => {
 	btn.addEventListener('click', (event) => {
 		currentLang = event.target.dataset.btn;
+		localStorage.setItem("language", event.target.dataset.btn);
 		resetActiveClass(langButtons, "header__lang-button_active");
-		btn.classList.add('header__lang-button_active');
+		btn.classList.add("header__lang-button_active");
 		changeLang();
 	});
 }));
