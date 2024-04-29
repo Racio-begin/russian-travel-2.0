@@ -1,6 +1,8 @@
 const allLangs = ["ru", "en"];
 
-let currentLang = localStorage.getItem("language") || "ru";
+let currentLang = localStorage.getItem("language")
+	|| checkBrowserLang()
+	|| "ru";
 
 const langButtons = document.querySelectorAll("[data-btn]");
 
@@ -62,4 +64,38 @@ function resetActiveClass(arr, activeClass) {
 	arr.forEach((elem) => {
 		elem.classList.remove(activeClass);
 	});
+};
+
+function checkActiveButton() {
+	switch (currentLang) {
+		case "ru":
+			document.querySelector(`[data-btn="ru"]`)
+				.classList.add("header__lang-button_active")
+			break;
+
+		case "en":
+			document.querySelector(`[data-btn="en"]`)
+				.classList.add("header__lang-button_active")
+			break;
+
+		default:
+			document.querySelector(`[data-btn="ru"]`)
+				.classList.add("header__lang-button_active")
+			break;
+	};
+};
+
+checkActiveButton();
+
+function checkBrowserLang() {
+	const navigatorLang = navigator.language.slice(0, 2).toLowerCase();
+	console.log("с обрезанием: ", navigatorLang);
+	console.log("без обрезания: ", navigator.language);
+	const checkExistLang = allLangs.some(elem => {
+		return elem === navigatorLang;
+	});
+
+	if (checkExistLang) {
+		return navigatorLang;
+	};
 };
