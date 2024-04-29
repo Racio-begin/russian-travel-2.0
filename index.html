@@ -16,15 +16,15 @@
 	<header class="header page__header">
 		<img class="header__logo" src="./images/header-logo.svg" alt="Логотип сайта с изображением территори России">
 		<ul class="header__lang-buttons">
-			<li class="header__list-item"><button class="header__lang-button header__lang-button_active">Ru</button></li>
-			<li class="header__list-item"><button class="header__lang-button">En</button></li>
+			<li class="header__list-item"><button class="header__lang-button header__lang-button_active" data-btn="ru">Ru</button></li>
+			<li class="header__list-item"><button class="header__lang-button" data-btn="en">En</button></li>
 		</ul>
 	</header>
 
 	<main class="content page__content">
 		<section class="lead content__lead">
-			<h1 class="lead__title">Путешествия по России</h1>
-			<p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+			<h1 class="lead__title" data-lang="lead__title-text">Путешествия по России</h1>
+			<p class="lead__subtitle" data-lang="lead__subtitle-text">Настоящая страна не в выпусках новостей, а здесь.</p>
 			<figure class="lead__figure">
 				<img class="lead__image" src="./images/lead-polka.jpg" alt="Девушка на нижней полке в платцкарте вагона поезда">
 				<figcaption class="lead__caption">ваша&nbsp;полка&nbsp;—&nbsp;верхняя</figcaption>
@@ -251,6 +251,7 @@
 	</footer>
 
 	<script src="./js/current-time/current-time.js"></script>
+	<script src="./js/page-languages/page-languages.js"></script>
 
 </body>
 
