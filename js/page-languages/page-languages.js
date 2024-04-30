@@ -1,3 +1,5 @@
+import {leadTexts} from "../page-texts/page-texts.js";
+
 const allLangs = ["ru", "en"];
 
 let currentLang = localStorage.getItem("language")
@@ -9,21 +11,6 @@ const langButtons = document.querySelectorAll("[data-btn]");
 const currentPathName = window.location.pathname;
 
 let currentTexts = {};
-
-const leadTexts = {
-	"lead__title-text": {
-		ru: "Путешествия по России",
-		en: "Russian Travel",
-	},
-	"lead__subtitle-text": {
-		ru: "Настоящая страна не в выпусках новостей, а здесь.",
-		en: "The real country is not in the news, but here.",
-	},
-	"lead__caption-text": {
-		ru: "Ваша полка - верхняя",
-		en: "Your shelf is top",
-	},
-};
 
 function checkPagePathName() {
 	switch (currentPathName) {
