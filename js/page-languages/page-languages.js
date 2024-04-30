@@ -89,8 +89,6 @@ checkActiveButton();
 
 function checkBrowserLang() {
 	const navigatorLang = navigator.language.slice(0, 2).toLowerCase();
-	console.log("с обрезанием: ", navigatorLang);
-	console.log("без обрезания: ", navigator.language);
 	const checkExistLang = allLangs.some(elem => {
 		return elem === navigatorLang;
 	});
