@@ -1,4 +1,4 @@
-import {leadTexts} from "../page-texts/page-texts.js";
+import {leadTexts, titleText} from "../page-texts/page-texts.js";
 
 const allLangs = ["ru", "en"];
 
@@ -33,6 +33,7 @@ function changeLang() {
 			elem.textContent = currentTexts[key][currentLang];
 		};
 	};
+	document.querySelector("title").innerHTML = titleText["title-text"][currentLang];
 };
 
 changeLang();

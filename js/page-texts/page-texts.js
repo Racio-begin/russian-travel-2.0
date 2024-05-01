@@ -1,3 +1,10 @@
+const titleText = {
+	"title-text": {
+		ru: "Путешествия по России",
+		en: "Russian Travel",
+	},
+};
+
 const leadTexts = {
 	"lead__title-text": {
 		ru: "Путешествия по России",
@@ -11,6 +18,10 @@ const leadTexts = {
 		ru: "Ваша полка - верхняя",
 		en: "Your shelf is top",
 	},
+	// "title-text": {
+	// 	ru: "Путешествия по России",
+	// 	en: "Russian Travel",
+	// },
 };
 
-export {leadTexts};
+export { titleText, leadTexts };
