@@ -33,7 +33,7 @@ function changeLang() {
 			elem.textContent = currentTexts[key][currentLang];
 		};
 	};
-	document.querySelector("title").innerHTML = titleText["title-text"][currentLang];
+	document.querySelector("title").textContent = titleText["title-text"][currentLang];
 };
 
 changeLang();
@@ -41,9 +41,11 @@ changeLang();
 langButtons.forEach((btn => {
 	btn.addEventListener('click', (event) => {
 		currentLang = event.target.dataset.btn;
+
 		localStorage.setItem("language", event.target.dataset.btn);
 		resetActiveClass(langButtons, "header__lang-button_active");
 		btn.classList.add("header__lang-button_active");
+
 		changeLang();
 	});
 }));
